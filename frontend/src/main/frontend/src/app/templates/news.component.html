@@ -1,7 +1,9 @@
-<h1 id="testTitle">
-  {{title}}
-</h1>
-<p *ngIf="errorMessage">{{errorMessage}}</p>
-<ul *ngFor="let greeting of greetings">
-  <li>{{greeting.id}} -- {{greeting.content}}</li>
-</ul>
+<div class="container">
+  <h1 id="testTitle">
+    {{title}}
+  </h1>
+  <p *ngIf="errorMessage">{{errorMessage}}</p>
+  <ul *ngFor="let greeting of greetings">
+    <li>{{greeting.id}} -- {{greeting.content}}</li>
+  </ul>
+</div>
