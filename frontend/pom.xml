@@ -72,7 +72,7 @@
 
 		<resources>
 			<resource>
-				<directory>target/frontend</directory>
+				<directory>target/frontend-${project.version}/</directory>
 				<targetPath>static</targetPath>
 			</resource>
 		</resources>

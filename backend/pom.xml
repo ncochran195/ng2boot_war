@@ -30,7 +30,7 @@
 			<groupId>com.jdriven.ng2boot</groupId>
 			<artifactId>frontend</artifactId>
 			<version>${project.version}</version>
-            <type>war</type> 
+			<type>war</type>
 		</dependency>
 
 		<dependency>
@@ -38,6 +38,21 @@
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context-support</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.freemarker</groupId>
+			<artifactId>freemarker</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
