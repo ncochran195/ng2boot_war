@@ -2,4 +2,6 @@ This is the base project for angular2 with spring boot.  Included is a simple ex
 
 Setup IDE: mvn eclipse:eclipse
 Build: mvn clean install
-Run: Copy .war from ./backend/target/ to tomcat/webapps and run eclipse
+Run: Copy .war from ./backend/target/ to tomcat/webapps/ and run eclipse
+                       OR
+execute the .war from ./backend/target/ with java -jar
