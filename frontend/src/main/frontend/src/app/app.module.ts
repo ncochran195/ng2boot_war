@@ -14,6 +14,7 @@ import { DataService } from './services/DataService'
 const appRoutes: Routes = [
   { path: 'TableComponent', component: TableComponent },
   { path: 'NewsComponent', component: NewsComponent },
+  { path: '', component: TableComponent }
 ];
 
 
