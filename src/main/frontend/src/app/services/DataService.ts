@@ -23,7 +23,8 @@ export class DataService {
     }
     private extractData(res: Response) {
         let body = res.json();
-        return body || { };
+        let data = body.data.data;
+        return data || { };
     }
 
   private handleError (error: Response | any) {
