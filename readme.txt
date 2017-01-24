@@ -5,7 +5,7 @@ This is the base project for angular2 with spring boot.  Included is a simple ex
 1) In pom.xml, change groupId, artifactId, name and description
 2) Run mvn eclipse:eclipse
 3) Run mvn clean install
-4) Change or remove the server.contextPath option in ./src/main/resources/application.properties to suit your needs
+4) Change or remove the server.contextPath option in ./src/main/resources/application.properties
 
 //--  EXECUTION  --//
 1) Copy .war from ./target/ to tomcat/webapps/ and start tomcat to use external tomcat
