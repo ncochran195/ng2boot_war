@@ -27,6 +27,6 @@ ng build --prod --watch
     2.A.b) Mac - Use the "Sync Folders" application
         -https://itunes.apple.com/us/app/sync-folders/id530573877?mt=12
 2.B)Intellij - Use the embedded tomcat server, files sync automatically after the automated angular-cli build
-3) You will still need to run mvn clean install for java code (and copy the war to tomcat, if using external tomcat).
+3) You will still need to run mvn clean install for java code changes (and copy the war to tomcat, if using external tomcat).
 
 If setup correctly, changes should show up in the browser within 5 seconds of saving the file.
