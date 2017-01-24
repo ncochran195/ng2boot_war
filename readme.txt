@@ -34,8 +34,8 @@ ng build --prod --watch
 If setup correctly, changes should show up in the browser within 5 seconds of saving the file.
 
 //--  Backend Example Explanation  --//
-The Spring Boot portion simply has a single controller to serve greetings.json, which is consumed by the frontend.
-Additionally, there is the basic ExampleApplication class which is the servlet initializer for the application.
+The Spring Boot portion has a single controller to serve /greetings.json, which is consumed by the frontend.
+Additionally, there is the ExampleApplication class which is the servlet initializer for the application.
 
 //--  Frontend Example Explanation  --//
 The Angular 2 portion has examples of an injectible service, as well as handling callbacks with the observe/subscribe 
