@@ -17,7 +17,7 @@ This is the base project for angular2 with spring boot.  Included is a simple ex
 //--  DEVELOPMENT  --//
 mvn clean install takes some time to run on this project due to the use of angular-cli for transpiling, so it is advised to setup your development environment to automatically transpile frontend changes and synchronize the output to tomcat.
 1) Start the angular cli builder in watch mode and leave the command prompt running:
-cd ./src/main/resources/static
+cd ./src/main/frontend
 ng build --prod --watch
 2) Files should be synchronized between ./src/main/resources/static and tomcat/webapps/app/WEB-INF/classes/static
 2.A) Eclipse
