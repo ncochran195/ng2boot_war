@@ -19,7 +19,7 @@ mvn clean install takes some time to run on this project due to the use of angul
 1) Start the angular cli builder in watch mode and leave the command prompt running:
 cd ./src/main/frontend
 ng build --prod --watch
-2) Next, files should be synchronized between ./src/main/resources/static and tomcat/webapps/app/WEB-INF/classes/static
+2) Next, setup file synchronization between ./src/main/resources/static and tomcat/webapps/app/WEB-INF/classes/static
 2.A) Eclipse
     2.A.a) Windows - Use the filesync plugin and configure eclipse to automatically refresh the project
         -http://marketplace.eclipse.org/content/filesync
