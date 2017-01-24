@@ -1,6 +1,5 @@
 //--  INTRODUCTION  --//
-This is the base project for angular2 with spring boot.  Included is a simple example with a service, a router, and some
-components.  Jquery and bootstrap are also included in the frontend.  Thymeleaf is used as the backend's view resolver.
+This is the base project for angular2 with spring boot.  Included is a simple example with a service, a router, and some components.  Jquery and bootstrap are also included in the frontend.  Thymeleaf is used as the backend's view resolver.
 
 //--  SETUP  --//
 1) In pom.xml, change groupId, artifactId, name and description
@@ -16,8 +15,7 @@ components.  Jquery and bootstrap are also included in the frontend.  Thymeleaf 
 3) use internal tomcat server from eclipse/intellij
 
 //--  DEVELOPMENT  --//
-mvn clean install takes some time to run on this project due to the use of angular-cli for transpiling, so it is advised to
-setup your development environment to automatically transpile frontend changes and synchronize the output to tomcat.
+mvn clean install takes some time to run on this project due to the use of angular-cli for transpiling, so it is advised to setup your development environment to automatically transpile frontend changes and synchronize the output to tomcat.
 1) Start the angular cli builder in watch mode and leave the command prompt running:
 cd ./src/main/frontend
 ng build --prod --watch
@@ -34,12 +32,7 @@ ng build --prod --watch
 If setup correctly, changes should show up in the browser within 5 seconds of saving the file.
 
 //--  BACKEND EXAMPLE EXPLANATION  --//
-The Spring Boot portion has a single controller to serve /greetings.json, which is consumed by the frontend.
-Additionally, there is the ExampleApplication class which is the servlet initializer for the application.
+The Spring Boot portion has a single controller to serve /greetings.json, which is consumed by the frontend. Additionally, there is the ExampleApplication class which is the servlet initializer for the application.
 
 //--  FRONTEND EXAMPLE EXPLANATION  --//
-The Angular 2 portion has examples of an injectible service, as well as handling callbacks with the observe/subscribe 
-pattern (DataService.ts/news.component.ts).  Additionally, there is a router (router.component.ts) that is used to route
-between two dummy components (table.component.ts and news.component.ts).  Also shown is how to use component-custom styles
-(app/styles/*) and global styles (app/styles.css).  Finally, responsive bootstrap is shown working (table.component.ts/html). 
-Each component has a boarder, to show the scope and composition of each component.
+The Angular 2 portion has examples of an injectible service, as well as handling callbacks with the observe/subscribe  pattern (DataService.ts/news.component.ts).  Additionally, there is a router (router.component.ts) that is used to route between two dummy components (table.component.ts and news.component.ts).  Also shown is how to use component-custom styles (app/styles/*) and global styles (app/styles.css).  Finally, responsive bootstrap is shown working (table.component.ts/html).  Each component has a boarder, to show the scope and composition of each component.
