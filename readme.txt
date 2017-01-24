@@ -9,9 +9,9 @@ This is the base project for angular2 with spring boot.  Included is a simple ex
 
 //--  EXECUTION  --//
 1) Copy .war from ./target/ to tomcat/webapps/ and start tomcat to use external tomcat
-                       OR
+    OR
 2) execute the .war from ./target/ with java -jar to use embedded tomcat
-                       OR
+    OR
 3) use internal tomcat server from eclipse/intellij
 
 //--  DEVELOPMENT  --//
@@ -19,7 +19,7 @@ mvn clean install takes some time to run on this project due to the use of angul
 1) Start the angular cli builder in watch mode and leave the command prompt running:
 cd ./src/main/frontend
 ng build --prod --watch
-2) Files should be synchronized between ./src/main/resources/static and tomcat/webapps/app/WEB-INF/classes/static
+2) Next, files should be synchronized between ./src/main/resources/static and tomcat/webapps/app/WEB-INF/classes/static
 2.A) Eclipse
     2.A.a) Windows - Use the filesync plugin and configure eclipse to automatically refresh the project
         -http://marketplace.eclipse.org/content/filesync
