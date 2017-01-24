@@ -33,11 +33,11 @@ ng build --prod --watch
 
 If setup correctly, changes should show up in the browser within 5 seconds of saving the file.
 
-//--  Backend Example Explanation  --//
+//--  BACKEND EXAMPLE EXPLANATION  --//
 The Spring Boot portion has a single controller to serve /greetings.json, which is consumed by the frontend.
 Additionally, there is the ExampleApplication class which is the servlet initializer for the application.
 
-//--  Frontend Example Explanation  --//
+//--  FRONTEND EXAMPLE EXPLANATION  --//
 The Angular 2 portion has examples of an injectible service, as well as handling callbacks with the observe/subscribe 
 pattern (DataService.ts/news.component.ts).  Additionally, there is a router (router.component.ts) that is used to route
 between two dummy components (table.component.ts and news.component.ts).  Also shown is how to use component-custom styles
