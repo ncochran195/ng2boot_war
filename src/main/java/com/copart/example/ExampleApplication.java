@@ -31,8 +31,8 @@ public class ExampleApplication extends SpringBootServletInitializer{
 	public static void main(String[] args) 
 	{
 		
-		log.info("************************** BOOTING G2 SELLER ********************************");
+		log.info("************************** BOOTING WEB APPLICATION ********************************");
 		SpringApplication.run(ExampleApplication.class, args);
-		log.info("************************** BOOTED G2 SELLER ********************************");
+		log.info("************************** BOOTED WEB APPLICATION ********************************");
 	}
 }
