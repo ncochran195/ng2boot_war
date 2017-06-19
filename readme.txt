@@ -3,6 +3,7 @@ This is the base project for angular2 with spring boot.  Included is a simple ex
 
 //--  SETUP  --//
 1) In pom.xml, change groupId, artifactId, name and description
+1.1) In pom.xml, update node.version and npm.version to the latest version
 2) Run mvn eclipse:eclipse
 3) Run mvn clean install
 4) Change or remove the server.contextPath option in ./src/main/resources/application.properties
