@@ -37,3 +37,5 @@ The Spring Boot portion has a single controller to serve /greetings.json, which 
 
 //--  FRONTEND EXAMPLE EXPLANATION  --//
 The Angular 2 portion has examples of an injectible service, as well as handling callbacks with the observe/subscribe  pattern (DataService.ts/news.component.ts).  Additionally, there is a router (router.component.ts) that is used to route between two dummy components (table.component.ts and news.component.ts).  Also shown is how to use component-custom styles (app/styles/*) and global styles (app/styles.css).  Finally, responsive bootstrap is shown working (table.component.ts/html).  Each component has a boarder, to show the scope and composition of each component.
+
+To access the site, the default username is "user" and the password is printed in console logs, search for "Using generated security password"
