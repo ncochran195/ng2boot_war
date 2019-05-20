@@ -1,5 +1,5 @@
 //--  INTRODUCTION  --//
-This is the base project for angular2 with spring boot.  Included is a simple example with a service, a router, and some components.  Jquery and bootstrap are also included in the frontend.  Thymeleaf is used as the backend's view resolver.
+This is the base project for angular6 with spring boot 2.  Included is a simple example with a service, a router, and some components.  Jquery and bootstrap are also included in the frontend.  Thymeleaf is used as the backend's view resolver.
 
 //--  SETUP  --//
 1) In pom.xml, change groupId, artifactId, name and description
